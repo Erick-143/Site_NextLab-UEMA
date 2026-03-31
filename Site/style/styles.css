@@ -1,0 +1,135 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+    --azul-marinho: #061F3D;
+    --ciano-vibrante: #20C5F2;
+    --cinza-medio: #A0B0C4;
+    --branco: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--branco);
+    color: var(--azul-marinho);
+    line-height: 1.6;
+}
+
+.botoes_topico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--branco);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    gap: 30px; 
+}
+
+.botoes_topico a {
+    text-decoration: none;
+    font-weight: 500; 
+    color: var(--azul-marinho);
+    font-size: 1rem;
+    transition: color 0.2s ease-in-out;
+}
+
+
+.botoes_topico a:hover {
+    color: var(--ciano-vibrante); 
+}
+
+main {
+    padding: 60px 20px;
+    text-align: center;
+    min-height: calc(100vh - 250px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Centro {
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+
+.Centro h2 {
+    font-size: 2.2rem;
+    font-weight: 600; 
+    color: var(--azul-marinho);
+    margin-bottom: 20px;
+}
+
+
+.Centro p {
+    font-size: 1.1rem;
+    font-weight: 400; 
+    color: var(--azul-marinho);
+}
+
+footer {
+    background-color: var(--azul-marinho);
+    color: var(--cinza-medio); 
+    padding: 40px 20px;
+}
+
+.final {
+    max-width: 1100px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.final p {
+    font-weight: 400; 
+    font-size: 0.9rem;
+}
+
+.links_rodape {
+    display: flex;
+    gap: 25px; 
+}
+
+.links_rodape a {
+    text-decoration: none;
+    color: var(--cinza-medio); 
+    font-weight: 400; 
+    font-size: 0.9rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.links_rodape a:hover {
+    color: var(--branco); 
+}
+
+.projeto-destaque {
+    border: 2px solid var(--ciano-vibrante);
+}
+
+.lista_tecnica {
+    list-style: none;
+    margin: 15px 0;
+    padding: 0;
+    text-align: left;
+}
+
+.lista_tecnica li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.projeto-futuro {
+    opacity: 0.7;
+    border: 2px dashed var(--cinza-medio);
+}
+.img {
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.5));
+  color: var(--ciano-vibrante);
+} */
